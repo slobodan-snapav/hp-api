@@ -1,0 +1,69 @@
+openapi: 3.0.1
+info:
+  title: HP-API
+  description: defaultDescription
+  version: "0.1"
+servers:
+- url: http://hp-api.herokuapp.com
+paths:
+  /api/characters/staff:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: http://hp-api.herokuapp.com
+    servers:
+    - url: http://hp-api.herokuapp.com
+  /api/characters:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: http://hp-api.herokuapp.com
+    servers:
+    - url: http://hp-api.herokuapp.com
+  /api/characters/house/slytherin:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: http://hp-api.herokuapp.com
+    servers:
+    - url: http://hp-api.herokuapp.com
+  /api/characters/house/ravenclaw:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: http://hp-api.herokuapp.com
+    servers:
+    - url: http://hp-api.herokuapp.com
+  /api/characters/house/gryffindor:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: http://hp-api.herokuapp.com
+    servers:
+    - url: http://hp-api.herokuapp.com
+  /api/characters/house/hufflepuff:
+    get:
+      description: Auto generated using Swagger Inspector
+      responses:
+        "200":
+          description: Auto generated using Swagger Inspector
+      servers:
+      - url: http://hp-api.herokuapp.com
+    servers:
+    - url: http://hp-api.herokuapp.com
+components: {}
